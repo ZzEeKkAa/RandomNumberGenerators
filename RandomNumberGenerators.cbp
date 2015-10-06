@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RandomNumberGenerators" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RandomNumberGenerators" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RandomNumberGenerators" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/ArensGen.h" />
+		<Unit filename="include/FibGen.h" />
+		<Unit filename="include/HelpFuncs.h" />
+		<Unit filename="include/InvCongGen.h" />
+		<Unit filename="include/LinGen.h" />
+		<Unit filename="include/LnGen.h" />
+		<Unit filename="include/PolCordGen.h" />
+		<Unit filename="include/Rand.h" />
+		<Unit filename="include/RandGen.h" />
+		<Unit filename="include/RelGen.h" />
+		<Unit filename="include/SquareGen.h" />
+		<Unit filename="include/ThreeSigGen.h" />
+		<Unit filename="include/UnifDistrGen.h" />
+		<Unit filename="include/UnionGen.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ArensGen.cpp" />
+		<Unit filename="src/FibGen.cpp" />
+		<Unit filename="src/HelpFuncs.cpp" />
+		<Unit filename="src/InvCongGen.cpp" />
+		<Unit filename="src/LinGen.cpp" />
+		<Unit filename="src/LnGen.cpp" />
+		<Unit filename="src/PolCordGen.cpp" />
+		<Unit filename="src/Rand.cpp" />
+		<Unit filename="src/RandGen.cpp" />
+		<Unit filename="src/RelGen.cpp" />
+		<Unit filename="src/SquareGen.cpp" />
+		<Unit filename="src/ThreeSigGen.cpp" />
+		<Unit filename="src/UnifDistrGen.cpp" />
+		<Unit filename="src/UnionGen.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
